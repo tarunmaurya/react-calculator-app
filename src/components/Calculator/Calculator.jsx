@@ -113,6 +113,7 @@ class Calculator extends Component {
     
     return (
       <div className="calculator-container">
+       <h1>React Calculator</h1>
         <Display displayValue={displayValue} />
         <Keypad
           callOperator={this.callOperator}
