@@ -17,8 +17,6 @@ describe('Calculator', () => {
   it('should render a <div />', () => {
     expect(wrapper.find('div').length).toEqual(1);
   });
-  // comment
-
   it('should render the Display and Keypad Components', () => {
     expect(wrapper.containsAllMatchingElements([
       <Display displayValue={wrapper.instance().state.displayValue} />,
